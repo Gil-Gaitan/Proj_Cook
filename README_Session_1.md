@@ -23,19 +23,20 @@ This is a working documentation = formatting is a subprocess.
    - Initialize a Git repository on the hub
    - Create a new repository locally with CLI command: git init
    - And then to link it to the git repo: git remote add origin https://github.com/Gil-Gaitan/Proj_Cook.git
-   - Walk through basic Git commands (`git add`, `commit`, `push`, `pull`) and best practices for commits.
-   - Set up a `.gitignore` file to avoid tracking unnecessary files.
+   - Walk through basic Git commands (`git add`, `commit`, `push`)
+   - Setup `.gitignore`
 
 3. **Project Structure**
    - Create a clean folder structure with separate directories for **sorting**, **searching**, **arrays**, **strings**, and so on.
    - Add a `README.md` file for each section, briefly explaining the contents and algorithms.
+   - pip install -r requirements.txt /// This installs th requirements.
 
 4. **Development Tools**
    - Set up and configure `pytest` for unit testing to ensure that each solution works as expected.
    - Configure `black` and `flake8` for code formatting and linting to help you maintain clean, readable code.
 
 5. **Initial GitHub Push**
-   - Push your setup to GitHub with an initial commit message, and we’ll make sure the structure is clean and ready to go.
+   - Push your setup to GitHub with an initial commit message, and we’ll make sure the structure is clean and ready to go. (git add ., )
 
 6. **Setting Up Coding Templates**
    - Create a basic Python file template with standard code sections (imports, main logic, helper functions).
